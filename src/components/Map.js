@@ -120,7 +120,7 @@ const Map = () => {
             <article className="bg-red-200 py-12">
                 <section className="innerSection">
                     <div>
-                        <LoadScript googleMapsApiKey="AIzaSyAQTg1YKQh36zrJ_tdRpHRgvBnXxoUunKI">
+                        <LoadScript googleMapsApiKey="">
                             <GoogleMap
                                 mapContainerStyle={containerStyle}
                                 center={origin}
