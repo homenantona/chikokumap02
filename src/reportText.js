@@ -1,0 +1,1 @@
+export const reportText = (iiwake, kyori, jikan, okure) => `おはようございます。現在、出勤途中なのですが、${iiwake}、朝礼の時間に間に合いそうにありません。ご迷惑をおかけし申し訳ありません。会社まで残り${kyori}で${Math.round(jikan / 60) + Number(okure)}分程度で到着いたします。よろしくお願いいたします。`
